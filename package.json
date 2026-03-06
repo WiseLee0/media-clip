@@ -1,0 +1,19 @@
+{
+  "name": "media-clip",
+  "private": true,
+  "version": "0.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@mediabunny/mp3-encoder": "^1.35.1",
+    "mediabunny": "^1.27.1"
+  },
+  "devDependencies": {
+    "jsdom": "^26.0.0",
+    "vitest": "^3.0.0"
+  }
+}
